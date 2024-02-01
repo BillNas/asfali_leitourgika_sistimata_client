@@ -49,10 +49,10 @@ function Navbar() {
                             </button>
                         ) : (
                             <>
-                                <Link onClick={toggleDrawer} to="/login" className="p-2">
+                                <Link onClick={toggleDrawer} to="/login" className="p-2 rounded-lg" style={{ backgroundColor: 'lightblue' }}>
                                     Σύνδεση
                                 </Link>
-                                <Link onClick={toggleDrawer} to="/register" className="p-2">
+                                <Link onClick={toggleDrawer} to="/register" className="p-2 mt-4 rounded-lg" style={{ backgroundColor: 'orange' }}>
                                     Εγγραφή
                                 </Link>
                             </>
