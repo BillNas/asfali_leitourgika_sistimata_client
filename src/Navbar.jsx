@@ -30,7 +30,7 @@ function Navbar() {
             </button>
             <Link to="/" className="flex items-center">
                 <span className="ml-2 text-lg font-semibold text-gray-700 dark:text-gray-200">
-                    Εργασία Ασφαλή Λειτουργικά Συστήματα
+                    Εργασία Ανάπτυξη Ασφαλών Συστημάτων
                 </span>
             </Link>
 
